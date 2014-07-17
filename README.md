@@ -9,12 +9,11 @@ Visit the project's website at <http://ghost.org> &bull; docs on <http://docs.gh
 Want to report a bug, request a feature, or help us build or translate Ghost? Check out our in depth guide to [Contributing to Ghost](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md). We need all the help we can get! You can also join in with our [community](https://github.com/TryGhost/Ghost#community) to keep up-to-date and meet other Ghosters.
 
 
-
 ## Getting Started
 
 There are **two** main ways to get started with Ghost, take care to use the method which best suits your needs.
 
-**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download) are pre-built packages designed for getting started quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself. 
+**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download) are pre-built packages designed for getting started quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself.
 
 ### Getting Started Guide for Bloggers
 
@@ -23,7 +22,7 @@ If you just want to get a Ghost blog running in the fastest time possible, this 
 For detailed instructions for various platforms visit the [Ghost Installation Guide](http://docs.ghost.org/installation/). If you get stuck, help is available on [our forum](http://ghost.org/forum/).
 
 1. Install [Node.js](http://nodejs.org) - Ghost requires **Node v0.10.**
-1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download). 
+1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download).
    **If you cloned the GitHub repository you should follow the instructions [for developers](https://github.com/TryGhost/Ghost#getting-started-guide-for-developers).**
 1. Create a new directory where you would like to run the code, and unzip the package to that location.
 1. Fire up a terminal (or node command prompt in Windows) and change directory to the root of the Ghost application (where config.example.js and index.js are)
@@ -39,7 +38,7 @@ Check out the [Documentation](http://docs.ghost.org/) for more detailed instruct
 
 If you're a theme, app or core developer, or someone comfortable getting up and running from a `git clone`, this method is for you.
 
-If you clone the GitHub repository, you will need to build a number of assets using grunt. 
+If you clone the GitHub repository, you will need to build a number of assets using grunt.
 
 #### Quickstart:
 
