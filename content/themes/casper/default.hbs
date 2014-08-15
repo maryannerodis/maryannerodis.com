@@ -22,15 +22,13 @@
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
+
     {{! Everything else gets inserted here }}
     {{{body}}}
 
-    <footer class="site-footer">
-        <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
-        <div class="inner">
-             <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</section>
-             <section class="poweredby">Proudly published with <a class="icon-ghost" href="https://ghost.org">Ghost</a></section>
-        </div>
+    <footer class="site-footer clearfix">
+         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}
@@ -39,24 +37,6 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    <script type="text/javascript">
-    //<![CDATA[
-      (function() {
-        var shr = document.createElement('script');
-        shr.setAttribute('data-cfasync', 'false');
-        shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
-        shr.type = 'text/javascript'; shr.async = 'true';
-        shr.onload = shr.onreadystatechange = function() {
-          var rs = this.readyState;
-          if (rs && rs != 'complete' && rs != 'loaded') return;
-          var site_id = 'c02cc3f1dcf4675ab51bbda0fceb60cb';
-          try { Shareaholic.init(site_id); } catch (e) {}
-        };
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(shr, s);
-      })();
-    //]]>
-    </script>
 
 </body>
 </html>
