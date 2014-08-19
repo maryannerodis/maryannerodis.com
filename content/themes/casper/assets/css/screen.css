@@ -907,6 +907,10 @@ body:not(.post-template) .post-title {
     line-height: 1.6em;
 }
 
+.post-comments {
+    margin-top: 60px;
+}
+
 /* list of author links - location / url */
 .author-meta {
     padding: 0;
