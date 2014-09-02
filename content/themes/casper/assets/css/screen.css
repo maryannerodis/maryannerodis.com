@@ -899,6 +899,7 @@ body:not(.post-template) .post-title {
 .post-footer h4 {
     font-size: 1.8rem;
     margin: 0;
+    text-align: center;
 }
 
 .post-footer p {
