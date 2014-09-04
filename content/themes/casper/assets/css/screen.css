@@ -899,7 +899,6 @@ body:not(.post-template) .post-title {
 .post-footer h4 {
     font-size: 1.8rem;
     margin: 0;
-    text-align: center;
 }
 
 .post-footer p {
@@ -953,6 +952,10 @@ body:not(.post-template) .post-title {
     top: 6rem;
     right: 0;
     width: 140px;
+}
+
+.post-footer .share h4 {
+    text-align: center;
 }
 
 /*.post-footer .share a {
