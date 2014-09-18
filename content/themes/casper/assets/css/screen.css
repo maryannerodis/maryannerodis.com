@@ -1047,6 +1047,23 @@ body:not(.post-template) .post-title {
     top: -33px;
 }
 
+/* Shareaholic */
+.shareaholic-recommendations-container.shareaholic-recommendations-container {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.shareaholic-share-buttons-container.shareaholic-share-buttons-container ul.shareaholic-share-buttons {
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+
+.shareaholic-share-buttons-container.shareaholic-share-buttons-container.rectangle ul.shareaholic-share-buttons li.shareaholic-share-button {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
 /* ==========================================================================
    6. Author profile
    ========================================================================== */
